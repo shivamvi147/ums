@@ -1,6 +1,6 @@
 <?php 
 
-$apibaseurl = 'http://localhost/ums1/api/';
+$apibaseurl = 'http://localhost/ums/api/';
 function callAPI($method='GET', $endpoint, $data=null){
     global $apibaseurl;
     $url = $apibaseurl.$endpoint;
