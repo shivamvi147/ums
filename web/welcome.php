@@ -48,7 +48,7 @@ if (strlen($_SESSION['token']=='')) {
     <div id="wrapper">
 
         <!-- Sidebar -->
-         <?php include_once('includes/sidebar.php ');?>
+         <?php include_once('includes/sidebar.php');?>
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
